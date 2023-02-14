@@ -1,0 +1,13 @@
+* Commentary
+
+A set of =display-buffer= actions to display buffers in a predictable way, bo be used with =display-buffer-alist= and some helpers to manage windows & tabs
+
+* Code
+
+| predictable-display-buffer-reuse-window-with-predicate | m | Factory to create ‘display-buffer’ action that tries to find a |
+| predictable-display-buffer-use-largest-window          | f | Display ‘buffer’ on the largest window.                        |
+| predictable-delete-window-with-last-tab                | f | Delete window when the last tab buried.                        |
+| predictable-close-all-to-the-right                     | c | Close all others tab to the left                               |
+| predictable-close-all-to-the-left                      | c | Close all others tab to the left                               |
+| predictable-close-others                               | c | Close all other tabs                                           |
+| predictable-toggle-dedicated-window                    | c | Toggles window dedication in the selected window.              |
